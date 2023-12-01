@@ -19,15 +19,22 @@ body {
   align-items: center;
   font-size: 7rem;
   font-family: "Sacramento";
-  color: white;
+  color: rgb(255, 255, 255);
   margin: 0;
   padding: 8rem;
+  text-decoration: underline white 3px;
 }
 
 .intro {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: larger;
   padding-bottom: 2rem;
+  text-shadow: 5px 5px 8px rgb(248, 49, 152);
+}
+
+.intro p {
+  font-size: 30px;
+  text-decoration: underline white 1.2px;
 }
 
 .navbar-list {
@@ -199,11 +206,13 @@ body {
   padding-left: 0;
   margin-top: rem;
   width: 350px;
+  color: rgb(109, 109, 109);
 }
 
 .container-fluid h2 {
   font-size: 40px;
-  color: #f4b1d1;
+  color: rgb(236,143,188);
+  text-decoration: underline rgb(160, 158, 158) 1px;
 }
 
 .container-my-projects {
@@ -276,7 +285,7 @@ body {
 }
 
 #project {
-  padding-top: 8%;
+  padding-top: 1%;
 }
 
 .project-item {
@@ -365,7 +374,7 @@ body {
 }
 
 .contact div{
-  padding: 4rem;
+  padding: 2rem;
 }
 
 .contact h2 {
@@ -462,7 +471,6 @@ main {
 }
 
 footer {
-  bottom: 0;
   display: flex;
   justify-content: center;
   background-color: #ed9ac2;
@@ -470,6 +478,9 @@ footer {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .fa-stack {
